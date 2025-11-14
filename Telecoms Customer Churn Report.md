@@ -52,18 +52,36 @@ Tool	Purpose
 -	Geographic Validation: Standardized city names and ensured proper coordination with the zip code database.
 
 
-## 📈 Method of Analysis
-1. Overall Churn Rate: Used a pivot table to divide churned customers by total customers, establishing the 26.5% KPI.
-2. Churn by Contract: Created a stacked column chart using a Pivot-calculated customer status, grouping by contract to reveal Month-to-Month as the most vulnerable.
-3. Churn by Internet Type: Used a Pivot table in a stacked bar chart to show that the Fiber Optic segment has a churn rate exceeding 50%.
+## 📈 Data Analysis
+1. KPIs:
+-	Overall churn rate (26.54%)
+-	Geographic performance across 1,106 cities
+-	Revenue impact by customer segment ($3.68M churn revenue)
+2. Trends and Pattern:
+-	Customer demographics (gender, marital, age and dependancy ratio)
 
+  <img width="1106" height="549" alt="image" src="https://github.com/user-attachments/assets/dd5b55e8-6bee-46ce-a250-8d1f2401bb5e" />
 
-Visualization:
+-	Service performance by type (Fiber Optic, DSL, Cable)
 
-<img width="1106" height="549" alt="image" src="https://github.com/user-attachments/assets/838aff63-28e1-4e85-97a4-1e430772c841" />
+  <img width="591" height="433" alt="image" src="https://github.com/user-attachments/assets/b1432f1c-9372-4962-b98f-81909f419ac5" />
 
+-	Contract type analysis (month-to-month vs. term contracts)
 
-<img width="941" height="493" alt="image" src="https://github.com/user-attachments/assets/88b99d00-7bcf-4706-b8f9-0ee4bb0b966d" />
+  <img width="576" height="428" alt="image" src="https://github.com/user-attachments/assets/9ad537d4-b4ba-456c-9df1-a020a58580f3" />
+
+-	Payment method correlation with churn
+
+<img width="625" height="432" alt="image" src="https://github.com/user-attachments/assets/092ba062-09c2-4f75-ab26-789165bf0bb7" />
+ 
+-	Offer made availabe to Customers with churn
+
+  <img width="586" height="412" alt="image" src="https://github.com/user-attachments/assets/ce3e9599-add1-4f15-aebf-b2440184ad0b" />
+
+-	Reasons why Customer Churned
+
+  <img width="624" height="409" alt="image" src="https://github.com/user-attachments/assets/763bd538-aad9-45b8-b3f3-31a6927d813e" />
+
 
 
 ## 📊 Churn Insights 
