@@ -5,11 +5,13 @@
 3. [Business Question](#Business-Question)
 4. [Tools Used](#Tools-Used)
 5. [Data cleaning and transformation](#Data-cleaning-and-transformation)
-7. [Data analysis](#Data-analysis)
-8. [Data Visualization](#Data-Visualization)
+7. [Data analysis and Visualization](#Data-analysis-and-Visualization)
 9. [Key Insights](#Key-Insights)
-10. [Recommendation](#Recommendation)
-11. [Conclusion](#Conclusion)
+10. [Recommendation](#Recommendation
+11. [Limitation](#Limitation)
+12. [Conclusion](#Conclusion)
+13. [File Included](#File-Included)
+14. [Author](#Author)
 
 ## Introduction
 We are a telecommunication company that provides phone and internet services to thousands of people across California, but every month, a significant number decide to leave us for a competitor or simply cancel their service. Our company is bleeding customers, and we don't fully understand why. This "customer churn" is more than just a number, it's lost revenue, wasted marketing expenses, and a sign that we might not be meeting our customers' needs.
@@ -52,12 +54,14 @@ Tool	Purpose
 -	Geographic Validation: Standardized city names and ensured proper coordination with the zip code database.
 
 
-## 📈 Data Analysis
-1. KPIs:
+## 📈 Data Analysis and Visualization
+1. **KPIs:**
 -	Overall churn rate (26.54%)
 -	Geographic performance across 1,106 cities
 -	Revenue impact by customer segment ($3.68M churn revenue)
-2. Trends and Pattern:
+
+  
+2. **Trends and Pattern:**
 -	Customer demographics (gender, marital, age and dependancy ratio)
 
   <img width="1106" height="549" alt="image" src="https://github.com/user-attachments/assets/dd5b55e8-6bee-46ce-a250-8d1f2401bb5e" />
@@ -84,7 +88,7 @@ Tool	Purpose
 
 
 
-## 📊 Churn Insights 
+## 📊 Key Insights 
 • **Insight:** Churn is heavily concentrated among month-to-month contract customers (1,655 churners) and those using Fiber Optic internet (70%), indicating dissatisfaction with commitment flexibility and service quality. Customers without online backup and without offers also have significantly higher churn rates. The age range 39–58 shows the highest churn volume, suggesting mid-life customers may have stronger expectations for reliability and pricing.
 
 • **Insight:** A major driver of churn is service dissatisfaction, as seen in the high churn from categories like competitor switching, dissatisfaction, and attitude issues. The absence of online backup and high churn among Fiber Optic customers may signal gaps in technical support responsiveness. Customers with dependents are churn-prone, showing that households may need more reliable and responsive support.
@@ -107,8 +111,11 @@ Tool	Purpose
 
 ## Limitation
 Analyzing population impact was difficult due to the "one-to-many" relationship between cities and zip codes, preventing clean data aggregation.
-        
 
+## 📜 Conclusion
+The company should prioritize reducing churn by improving Fiber Optic service quality and reliability, as it’s the main driver of revenue loss. The CEO and executives should lead a cross-departmental effort in Marketing to retain month-to-month Fiber users through targeted offers, Customer Service to enhance Fiber installation and support, Product Team should improve service performance and bundle add-ons for retention, and Finance to fund these initiatives. This coordinated action will strengthen customer loyalty, reduce revenue churn, and protect long-term profitability.
+
+        
 ## 📂 Files Included
 File Description:
 [https://drive.google.com/drive/folders/1lyJ5bBK2THVo_pi7M9K4RhHXs_0o-fgS?usp=sharing]
@@ -122,6 +129,4 @@ Data Analyst | Business Analyst | Researcher
 
 
 
-## 📜 Conclusion
-The company should prioritize reducing churn by improving Fiber Optic service quality and reliability, as it’s the main driver of revenue loss. The CEO and executives should lead a cross-departmental effort in Marketing to retain month-to-month Fiber users through targeted offers, Customer Service to enhance Fiber installation and support, Product Team should improve service performance and bundle add-ons for retention, and Finance to fund these initiatives. This coordinated action will strengthen customer loyalty, reduce revenue churn, and protect long-term profitability.
 
