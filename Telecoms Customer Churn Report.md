@@ -1,17 +1,18 @@
 # Telecoms Customer Churn Analysis
 ## Table of Content
 1. [Introduction](#introduction)  
-2. [Project Overview](#Project-Overview)
-3. [Business Question](#Business-Question)
-4. [Tools Used](#Tools-Used)
-5. [Data cleaning and transformation](#Data-cleaning-and-transformation)
-7. [Data analysis and Visualization](#Data-analysis-and-Visualization)
-9. [Key Insights](#Key-Insights)
-10. [Recommendation](#Recommendation
-11. [Limitation](#Limitation)
+2. [📘 Project Overview](#📘-Project-Overview)
+3. [🎯 Business Question](#🎯-Business-Question)
+4. [🧰 Methodological Approach](#🧰-Methodological-Approach)
+5. [🧰 Tools Used](#🧰-Tools-Used)
+6. [🔍 Data cleaning and transformation](#🔍-Data-cleaning-and-transformation)
+7. [📈 Data analysis and Visualization](#📈-Data-analysis-and-Visualization)
+9. [📊 Key Insights](#📊-Key-Insights)
+10. [🔍 Recommendation](#🔍-Recommendation)
+11. [📜 Limitation](#📜-Limitation)
 12. [Conclusion](#Conclusion)
-13. [File Included](#File-Included)
-14. [Author](#Author)
+13. [📂 File Included](📂-#File-Included)
+14. [🧑‍💻Author](#🧑‍💻-Author)
 
 ## Introduction
 We are a telecommunication company that provides phone and internet services to thousands of people across California, but every month, a significant number decide to leave us for a competitor or simply cancel their service. Our company is bleeding customers, and we don't fully understand why. This "customer churn" is more than just a number, it's lost revenue, wasted marketing expenses, and a sign that we might not be meeting our customers' needs.
