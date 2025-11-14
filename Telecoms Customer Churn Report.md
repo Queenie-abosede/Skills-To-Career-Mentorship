@@ -3,15 +3,13 @@
 1. [Introduction](#introduction)  
 2. [Project Overview](#Project-Overview)
 3. [Business Question](#Business-Question)
-5. [Tools Used](#Tools-Used)
-6. [Data importation](#Data-importation)
-7. [Data cleaning and transformation](#Data-cleaning-and-transformation)
-8. [Data modelling](#Data-modelling)
-9. [Data analysis](#Data-analysis)
-10. [Data Visualization](#Data-Visualization)
-11. [Key Insights](#Key-Insights)
-12. [Recommendation](#Recommendation)
-13. [Conclusion](#Conclusion)
+4. [Tools Used](#Tools-Used)
+5. [Data cleaning and transformation](#Data-cleaning-and-transformation)
+7. [Data analysis](#Data-analysis)
+8. [Data Visualization](#Data-Visualization)
+9. [Key Insights](#Key-Insights)
+10. [Recommendation](#Recommendation)
+11. [Conclusion](#Conclusion)
 
 ## Introduction
 We are a telecommunication company that provides phone and internet services to thousands of people across California, but every month, a significant number decide to leave us for a competitor or simply cancel their service. Our company is bleeding customers, and we don't fully understand why. This "customer churn" is more than just a number, it's lost revenue, wasted marketing expenses, and a sign that we might not be meeting our customers' needs.
@@ -46,6 +44,12 @@ Tool	Purpose
 2. Pivot Tables	Summarizing large datasets
 3. Slicers	Enabling interactive filtering by Customer Status
 4. Charts & Graphs	Visual representation of trends and Patterns
+
+## Data Cleaning and transformation
+-	Categorical Inputation (Non-Churned Customers): Null entries within the Churn Category were replaced with “Customers” since their status was *stayed and joined* which means they are still existing customers, and Churn Reason columns were replaced with the descriptive value *"N/A"*. This decision reflects the business logic that an empty value in these specific fields signifies the customer is still active. Some null values were found in other services columns that were replaced with *"unverified"* because they were a boolean response of *"yes or no"*.
+-	Numerical Imputation (Zero Replacement): Null values in quantitative fields, such as *Avg Monthly GB Download*, were replaced with 0.
+-	Created calculated fields: Generated churn flags, tenure segments, and revenue categories.
+-	Geographic Validation: Standardized city names and ensured proper coordination with the zip code database.
 
 
 ## 📈 Method of Analysis
