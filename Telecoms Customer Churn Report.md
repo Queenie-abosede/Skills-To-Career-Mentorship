@@ -14,7 +14,7 @@
 13. [File Included](#file-included)
 14. [Author](#author)
 
-## Introduction
+## 💡  Introduction
 We are a telecommunication company that provides phone and internet services to thousands of people across California, but every month, a significant number decide to leave us for a competitor or simply cancel their service. Our company is bleeding customers, and we don't fully understand why. This "customer churn" is more than just a number, it's lost revenue, wasted marketing expenses, and a sign that we might not be meeting our customers' needs.
 
 The core problem is that we lack clarity. We have all this customer data, but we haven't connected the dots to see the story telling us about who is leaving, when they leave, and most importantly, why, which is why we need a customer insight Analyst.
@@ -67,25 +67,36 @@ Tool	Purpose
 
   <img width="1106" height="549" alt="image" src="https://github.com/user-attachments/assets/dd5b55e8-6bee-46ce-a250-8d1f2401bb5e" />
 
+  
+
 -	Service performance by type (Fiber Optic, DSL, Cable)
 
   <img width="591" height="433" alt="image" src="https://github.com/user-attachments/assets/b1432f1c-9372-4962-b98f-81909f419ac5" />
+
+  
 
 -	Contract type analysis (month-to-month vs. term contracts)
 
   <img width="576" height="428" alt="image" src="https://github.com/user-attachments/assets/9ad537d4-b4ba-456c-9df1-a020a58580f3" />
 
+  
+
 -	Payment method correlation with churn
 
 <img width="625" height="432" alt="image" src="https://github.com/user-attachments/assets/092ba062-09c2-4f75-ab26-789165bf0bb7" />
+
+
  
 -	Offer made availabe to Customers with churn
 
   <img width="586" height="412" alt="image" src="https://github.com/user-attachments/assets/ce3e9599-add1-4f15-aebf-b2440184ad0b" />
 
+  
+
 -	Reasons why Customer Churned
 
   <img width="624" height="409" alt="image" src="https://github.com/user-attachments/assets/763bd538-aad9-45b8-b3f3-31a6927d813e" />
+
 
 
 
