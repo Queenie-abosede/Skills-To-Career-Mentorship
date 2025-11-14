@@ -1,9 +1,8 @@
 # Telecoms Customer Churn Analysis
 ## Table of Content
 1. [Introduction](#introduction)  
-2. [Project Description](#Project-Description)
-3. [Project Aim](#Project-Aim)
-4. [About](#About)
+2. [Project Overview](#Project-Overview)
+3. [Business Question](#Business-Question)
 5. [Tools Used](#Tools-Used)
 6. [Data importation](#Data-importation)
 7. [Data cleaning and transformation](#Data-cleaning-and-transformation)
@@ -41,7 +40,12 @@ The project was executed in Microsoft Excel, featuring two interactive dashboard
 The analysis merges customer behavioral data with zip code demographic information to identify patterns across multiple dimensions. Initial focus includes descriptive analytics to establish baseline metrics, followed by correlation analysis to identify key churn drivers. The final deliverables will provide prioritized recommendations based on both statistical significance and business impact.
 The primary tool utilized for data inspection, integrity checking, and cleaning was Microsoft Excel, specifically leveraging its advanced Power Query and filtering features.
 
-## Data Cleaning 
+## 🧰 Tools Used
+Tool	Purpose
+1. Microsoft Excel	Data cleaning, analysis, and dashboard creation
+2. Pivot Tables	Summarizing large datasets
+3. Slicers	Enabling interactive filtering by Customer Status
+4. Charts & Graphs	Visual representation of trends and Patterns
 
 
 ## 📈 Method of Analysis
