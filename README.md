@@ -13,7 +13,7 @@ The project was executed in Microsoft Excel, featuring two interactive dashboard
 2. Customer Churn Analysis – Identofy the trends, patterns and key factors Influenecing Churn
 
 
-## 🎯 Business Queation
+## 🎯 Business Question
 1. Is our service portfolio failing us? Which specific service (e.g., Fiber Optic internet, online security, streaming) is most strongly associated with customers leaving?
 2. What is the gender distribution of churned customers?
 3. What is our exact customer churn rate?
@@ -21,9 +21,13 @@ The project was executed in Microsoft Excel, featuring two interactive dashboard
 5. What are the common demographics (like age, gender, Marital status) and contract characteristics (month-to-month vs. yearly) of customers who churn?
 6. Does tenure contribute to churn rate?
 
+
 ## 🧰 Methodological Approach
 The analysis merges customer behavioral data with zip code demographic information to identify patterns across multiple dimensions. Initial focus includes descriptive analytics to establish baseline metrics, followed by correlation analysis to identify key churn drivers. The final deliverables will provide prioritized recommendations based on both statistical significance and business impact.
 The primary tool utilized for data inspection, integrity checking, and cleaning was Microsoft Excel, specifically leveraging its advanced Power Query and filtering features.
+
+## Data Cleaning 
+
 
 ## 📈 Method of Analysis
 1. Overall Churn Rate: Used a pivot table to divide churned customers by total customers, establishing the 26.5% KPI.
