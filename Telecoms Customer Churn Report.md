@@ -1,6 +1,6 @@
 # Telecoms Customer Churn Analysis
 ## Table of Content
-1. [Introduction](#introduction)  
+1. [💡 Introduction](#💡-introduction)  
 2. [Project Overview](#project-overview)
 3. [Business Question](#business-question)
 4. [Methodological Approach](#methodological-approach)
