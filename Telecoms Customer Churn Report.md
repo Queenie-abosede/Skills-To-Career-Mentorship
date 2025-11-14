@@ -1,6 +1,6 @@
 # Telecoms Customer Churn Analysis
 ## Table of Content
-1. [Introduction](#💡introduction)  
+1. [Introduction](#💡-introduction)  
 2. [Project Overview](#project-overview)
 3. [Business Question](#business-question)
 4. [Methodological Approach](#methodological-approach)
@@ -14,7 +14,7 @@
 13. [File Included](#file-included)
 14. [Author](#author)
 
-## 💡  Introduction
+## 💡 Introduction
 We are a telecommunication company that provides phone and internet services to thousands of people across California, but every month, a significant number decide to leave us for a competitor or simply cancel their service. Our company is bleeding customers, and we don't fully understand why. This "customer churn" is more than just a number, it's lost revenue, wasted marketing expenses, and a sign that we might not be meeting our customers' needs.
 
 The core problem is that we lack clarity. We have all this customer data, but we haven't connected the dots to see the story telling us about who is leaving, when they leave, and most importantly, why, which is why we need a customer insight Analyst.
