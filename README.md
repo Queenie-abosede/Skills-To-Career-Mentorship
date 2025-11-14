@@ -1,5 +1,6 @@
 # Telecoms Customer Churn Analysis
 
+
 ## 📘 Project Overview
       The  telecommunication company is experiencing customer turnover (churn), which affects revenue stability and growth. However, the reasons behind customer churn are unclear. There’s a need to identify patterns, trends, and key factors influencing churn to guide retention strategies.
       The project was executed in Microsoft Excel, featuring two interactive dashboards:
