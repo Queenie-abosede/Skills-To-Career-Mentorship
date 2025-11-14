@@ -14,25 +14,27 @@ The project was executed in Microsoft Excel, featuring two interactive dashboard
 
 
 ## 🎯 Business Queation
-• Is our service portfolio failing us? Which specific service (e.g., Fiber Optic internet, online security, streaming) is most strongly associated with customers leaving?
-• What is the gender distribution of churned customers?
-• What is our exact customer churn rate? 
-• Do specific payment methods or billing structures correlate with higher churn rates? 
-• What are the common demographics (like age, gender, Marital status) and contract characteristics (month-to-month vs. yearly) of customers who churn? 
-• Does tenure contribute to churn rate?
+1. Is our service portfolio failing us? Which specific service (e.g., Fiber Optic internet, online security, streaming) is most strongly associated with customers leaving?
+2. What is the gender distribution of churned customers?
+3. What is our exact customer churn rate?
+4. Do specific payment methods or billing structures correlate with higher churn rates?
+5. What are the common demographics (like age, gender, Marital status) and contract characteristics (month-to-month vs. yearly) of customers who churn?
+6. Does tenure contribute to churn rate?
 
 ## 🧰 Methodological Approach
 The analysis merges customer behavioral data with zip code demographic information to identify patterns across multiple dimensions. Initial focus includes descriptive analytics to establish baseline metrics, followed by correlation analysis to identify key churn drivers. The final deliverables will provide prioritized recommendations based on both statistical significance and business impact.
 The primary tool utilized for data inspection, integrity checking, and cleaning was Microsoft Excel, specifically leveraging its advanced Power Query and filtering features.
 
 ## 📈 Method of Analysis
-• Overall Churn Rate: Used a pivot table to divide churned customers by total customers, establishing the 26.5% KPI.
-• Churn by Contract: Created a stacked column chart using a Pivot-calculated customer status, grouping by contract to reveal Month-to-Month as the most vulnerable.
-• Churn by Internet Type: Used a Pivot table in a stacked bar chart to show that the Fiber Optic segment has a churn rate exceeding 50%.
-• Key Challenge: Analyzing population impact was difficult due to the "one-to-many" relationship between cities and zip codes, preventing clean data aggregation.
+1. Overall Churn Rate: Used a pivot table to divide churned customers by total customers, establishing the 26.5% KPI.
+2. Churn by Contract: Created a stacked column chart using a Pivot-calculated customer status, grouping by contract to reveal Month-to-Month as the most vulnerable.
+3. Churn by Internet Type: Used a Pivot table in a stacked bar chart to show that the Fiber Optic segment has a churn rate exceeding 50%.
 
 
 Visualization:
+
+<img width="1106" height="549" alt="image" src="https://github.com/user-attachments/assets/838aff63-28e1-4e85-97a4-1e430772c841" />
+
 
 <img width="941" height="493" alt="image" src="https://github.com/user-attachments/assets/88b99d00-7bcf-4706-b8f9-0ee4bb0b966d" />
 
@@ -55,7 +57,11 @@ Visualization:
 2. Customer Service Team should Strengthen your first-contact resolution rate and ensure faster escalation for Fiber Optic complaints. Implement a follow-up system for customers who call more than once within 30 days. Train agents on empathy and proactive retention techniques to address “attitude” as a churn reason.
 3. Finance Head Team Model the financial impact of reducing churn by 5–10% within the high-value Fiber Optic segment to justify budget for retention campaigns. Re-assess pricing strategy for month-to-month customers, offering bundles that increase retention without significantly affecting ARPU. Allocate funds to improve service reliability, as this directly influences revenue retention.
 4. Product and Service Team should prioritize quality improvements in the Fiber Optic offering—speed consistency, uptime, and installation experience. Redesign product bundles to include online backup, offers, or loyalty benefits to increase value perception. Review and enhance the month-to-month contract experience with flexible but attractive upgrade paths.
-5. CEO/Executive Management should adopt a company-wide churn reduction strategy that aligns marketing, customer service, product, and technical teams. Invest in service reliability enhancements, especially for Fiber Optic customers. Set quarterly churn-reduction KPIs and prioritize retention as a top-level strategic initiative to protect revenue and competitive positioning. 
+5. CEO/Executive Management should adopt a company-wide churn reduction strategy that aligns marketing, customer service, product, and technical teams. Invest in service reliability enhancements, especially for Fiber Optic customers. Set quarterly churn-reduction KPIs and prioritize retention as a top-level strategic initiative to protect revenue and competitive positioning.
+
+
+## Limitation
+Analyzing population impact was difficult due to the "one-to-many" relationship between cities and zip codes, preventing clean data aggregation.
         
 
 ## 📂 Files Included
