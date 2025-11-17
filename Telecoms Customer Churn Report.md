@@ -1,11 +1,11 @@
 # Telecoms Customer Churn Analysis
 ## Table of Content
-1. [Introduction](##💡-introduction)  
+1. [Introduction](#💡-introduction)  
 2. [Project Overview](#project-overview)
 3. [Business Question](#business-question)
 4. [Methodological Approach](#methodological-approach)
 5. [Tools Used](#tools-used)
-6. [Data cleaning and transformation](#data-cleaning-and-transformation)
+6. [Data cleaning and Transformation](#data-cleaning-and-transformation)
 7. [Data analysis and Visualization](#data-analysis-and-visualization)
 9. [Key Insights](#key-insights)
 10. [Recommendation](#recommendation)
@@ -48,7 +48,7 @@ Tool	Purpose
 3. Slicers	Enabling interactive filtering by Customer Status
 4. Charts & Graphs	Visual representation of trends and Patterns
 
-## Data Cleaning and transformation
+## Data Cleaning and Transformation
 -	Categorical Inputation (Non-Churned Customers): Null entries within the Churn Category were replaced with “Customers” since their status was *stayed and joined* which means they are still existing customers, and Churn Reason columns were replaced with the descriptive value *"N/A"*. This decision reflects the business logic that an empty value in these specific fields signifies the customer is still active. Some null values were found in other services columns that were replaced with *"unverified"* because they were a boolean response of *"yes or no"*.
 -	Numerical Imputation (Zero Replacement): Null values in quantitative fields, such as *Avg Monthly GB Download*, were replaced with 0.
 -	Created calculated fields: Generated churn flags, tenure segments, and revenue categories.
@@ -65,37 +65,37 @@ Tool	Purpose
 2. **Trends and Pattern:**
 -	Customer demographics (gender, marital, age and dependancy ratio)
 
-  <img width="1106" height="549" alt="image" src="https://github.com/user-attachments/assets/dd5b55e8-6bee-46ce-a250-8d1f2401bb5e" />
+  <img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/dd5b55e8-6bee-46ce-a250-8d1f2401bb5e" />
 
   
 
 -	Service performance by type (Fiber Optic, DSL, Cable)
 
-  <img width="591" height="433" alt="image" src="https://github.com/user-attachments/assets/b1432f1c-9372-4962-b98f-81909f419ac5" />
+  <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/b1432f1c-9372-4962-b98f-81909f419ac5" />
 
   
 
 -	Contract type analysis (month-to-month vs. term contracts)
 
-  <img width="576" height="428" alt="image" src="https://github.com/user-attachments/assets/9ad537d4-b4ba-456c-9df1-a020a58580f3" />
+  <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/9ad537d4-b4ba-456c-9df1-a020a58580f3" />
 
   
 
 -	Payment method correlation with churn
 
-<img width="625" height="432" alt="image" src="https://github.com/user-attachments/assets/092ba062-09c2-4f75-ab26-789165bf0bb7" />
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/092ba062-09c2-4f75-ab26-789165bf0bb7" />
 
 
  
 -	Offer made availabe to Customers with churn
 
-  <img width="586" height="412" alt="image" src="https://github.com/user-attachments/assets/ce3e9599-add1-4f15-aebf-b2440184ad0b" />
+  <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/ce3e9599-add1-4f15-aebf-b2440184ad0b" />
 
   
 
 -	Reasons why Customer Churned
 
-  <img width="624" height="409" alt="image" src="https://github.com/user-attachments/assets/763bd538-aad9-45b8-b3f3-31a6927d813e" />
+  <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/763bd538-aad9-45b8-b3f3-31a6927d813e" />
 
 
 
@@ -114,11 +114,11 @@ Tool	Purpose
        
 
 ## 🔍 Recommendations
-1. Head of Marking Head should Prioritize a targeted retention campaign for month-to-month customers—offer price incentives, loyalty bonuses, or flexible upgrade plans. Improve perceived value for Fiber Optic users through speed boosts or reduced downtime. Launch personalized retention offers for adults age 38–58, focusing on stability, value, and service assurance.
-2. Customer Service Team should Strengthen your first-contact resolution rate and ensure faster escalation for Fiber Optic complaints. Implement a follow-up system for customers who call more than once within 30 days. Train agents on empathy and proactive retention techniques to address “attitude” as a churn reason.
-3. Finance Head Team Model the financial impact of reducing churn by 5–10% within the high-value Fiber Optic segment to justify budget for retention campaigns. Re-assess pricing strategy for month-to-month customers, offering bundles that increase retention without significantly affecting ARPU. Allocate funds to improve service reliability, as this directly influences revenue retention.
-4. Product and Service Team should prioritize quality improvements in the Fiber Optic offering—speed consistency, uptime, and installation experience. Redesign product bundles to include online backup, offers, or loyalty benefits to increase value perception. Review and enhance the month-to-month contract experience with flexible but attractive upgrade paths.
-5. CEO/Executive Management should adopt a company-wide churn reduction strategy that aligns marketing, customer service, product, and technical teams. Invest in service reliability enhancements, especially for Fiber Optic customers. Set quarterly churn-reduction KPIs and prioritize retention as a top-level strategic initiative to protect revenue and competitive positioning.
+1. **Head of Marking Head** should Prioritize a targeted retention campaign for month-to-month customers—offer price incentives, loyalty bonuses, or flexible upgrade plans. Improve perceived value for Fiber Optic users through speed boosts or reduced downtime. Launch personalized retention offers for adults age 38–58, focusing on stability, value, and service assurance.
+2. **Customer Service Team** should Strengthen your first-contact resolution rate and ensure faster escalation for Fiber Optic complaints. Implement a follow-up system for customers who call more than once within 30 days. Train agents on empathy and proactive retention techniques to address “attitude” as a churn reason.
+3. **Finance Head Team** Model the financial impact of reducing churn by 5–10% within the high-value Fiber Optic segment to justify budget for retention campaigns. Re-assess pricing strategy for month-to-month customers, offering bundles that increase retention without significantly affecting ARPU. Allocate funds to improve service reliability, as this directly influences revenue retention.
+4. **Product and Service Team** should prioritize quality improvements in the Fiber Optic offering—speed consistency, uptime, and installation experience. Redesign product bundles to include online backup, offers, or loyalty benefits to increase value perception. Review and enhance the month-to-month contract experience with flexible but attractive upgrade paths.
+5. **CEO/Executive Management** should adopt a company-wide churn reduction strategy that aligns marketing, customer service, product, and technical teams. Invest in service reliability enhancements, especially for Fiber Optic customers. Set quarterly churn-reduction KPIs and prioritize retention as a top-level strategic initiative to protect revenue and competitive positioning.
 
 
 ## Limitation
@@ -130,13 +130,12 @@ The company should prioritize reducing churn by improving Fiber Optic service qu
         
 ## 📂 Files Included
 File Description:
-[https://drive.google.com/drive/folders/1lyJ5bBK2THVo_pi7M9K4RhHXs_0o-fgS?usp=sharing]
-
+[https://drive.google.com/drive/folders/1LRXVGxm561ke4nbd6hU-nPz9Kl0pbFcE?usp=drive_link]
 
 ## 🧑‍💻 Author
 
 Esther Adewumi
-Data Analyst | Business Analyst | Researcher
+- Data Analyst | Business Analyst | Researcher
 📧 [estheradewumi829@gmail.com]
 
 
